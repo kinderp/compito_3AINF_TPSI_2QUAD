@@ -1,10 +1,10 @@
 # compito_3AINF_TPSI_2QUAD
 
-### ES1
+### ES1 (2 pt)
 
 Scrivere file c: `es1.c` che stampi con quattro chiamate alla funzione `printf()` il valore esadecimale (`%#x`) e il corrispondente indirizzo di memoria (`%p`) di ciascuno dei quattro byte del valore intero senza segno `12756`. Infine, incollare l'output del programma nel file `es1.txt` e dire se la propria macchina è di tipo BIG o LITTLE endian, argomentando brevemente i motivi della risposta.
 
-### ES2
+### ES2 (2.5 pt)
 
 Scrivere un file c: `es2.c` che implementi la funzione `inverti_stringa(char *stringa, int dim)` richiamata nel main di sotto.  
 
@@ -18,7 +18,7 @@ int main(void){
 }
 ```
 
-### ES3
+### ES3 (0.5 pt)
 
 Scrivere un file c: `es3.c` che dichiari una macro `DIM_MACRO` in grado di calcolare il numero di elementi di questi due vettori
 
@@ -34,7 +34,7 @@ int main(void){
 }
 ```
 
-### ES4
+### ES4 (2.5 pt)
 
 Scrivere un file c: `es4.c` che implementi la funzione `int distanza(int a[], int x, int y, int n)` che calcoli la distranza tra gli elmenti x e y nel vettore a di n elementi. La funzione deve calcolare la distanza tra l'elemento x ed y utilizzando le seguenti due variabili locali
 
@@ -56,7 +56,7 @@ int main(void){
 }
 ```
 
-### ES5
+### ES5 (2.5 pt)
 
 Copiare tutto il codice di sotto nel file `es5.c`. Compilando il codice otterrai degli errori di compilazione. Rimuovi tutti gli errori sintattici. Lanciando il programma questo andra in crash, risolvi gli errori in modo da far funzionare correttamente tutto il programma.
 
