@@ -6,6 +6,17 @@ Scrivere file c: `es1.c` che stampi con quattro chiamate alla funzione `printf()
 
 ### ES2
 
+Scrivere un file c: `es2.c` che implementi la funzione `inverti_stringa(char *stringa, int dim)` richiamata nel main di sotto.  
+
+```c
+int main(void){
+        char stringa[10] =  "aeiou";
+        printf("%s\n", stringa);
+        inverti_stringa(stringa, 6);
+        printf("%s\n", stringa);
+        return 0;
+}
+```
 
 ### ES3
 
