@@ -20,5 +20,38 @@ int main(void){
 
 ### ES3
 
+Scrivere un file c: `es3.c` che dichiari una macro `DIM_MACRO` in grado di calcolare il numero di elementi di questi due vettori
+
+```c
+int main(void){
+        int a[100];
+        double b[50];
+        size_t dim_a = DIM_MACRO(a);
+        size_t dim_b = DIM_MACRO(b);
+
+        printf("a e' un vettore di interi di %ld elementi\n", dim_a);
+        printf("b e' un vettore di double di %ld elementi\n", dim_b);
+}
+```
 
 ### ES4
+
+Scrivere un file c: `es4.c` che implementi la funzione `int distanza(int a[], int x, int y, int n)` che calcoli la distranza tra gli elmenti x e y nel vettore a di n elementi. La funzione deve calcolare la distanza tra l'elemento x ed y utilizzando le seguenti due variabili locali
+
+* `int *px`
+* `int *py`
+
+```c
+int main(void){
+        int a[] = {1,4,3,6,7,2,9,0,5};
+        for(int i=0; i<9; i++)
+                printf("%d\t", a[i]);
+        printf("\n");
+
+        int x = 3;
+        int y = 9;
+        int d = distanza(a, x, y, 9);
+        printf("la distanza tra %d e %d e' di %d posizioni\n", x, y, d);
+        return 0;
+}
+```
