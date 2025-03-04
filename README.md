@@ -92,7 +92,7 @@ int main(void){
 }
 ```
 
-l'output corretto del programma funzionante è il seguente
+l'output corretto del programma funzionante è il seguente (ovviamente il valore dell'indirizzo di memoria di a sarà diverso)
 
 ```
 a vale 6, a e' all'indirizzo di memoria 0x7ffe2ff8bc24
