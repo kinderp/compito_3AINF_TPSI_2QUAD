@@ -55,3 +55,48 @@ int main(void){
         return 0;
 }
 ```
+
+### ES5
+
+Copiare tutto il codice di sotto nel file `es5.c`. Compilando il codice otterrai degli errori di compilazione. Rimuovi tutti gli errori sintattici. Lanciando il programma questo andra in crash, risolvi gli errori in modo da far funzionare correttamente tutto il programma.
+
+```c
+#include<stdio.h>
+
+int main(void){
+
+        int a = 5;
+        a++;
+        int *pa;
+        printf("a vale %d, a e' all'indirizzo di memoria %p\n", *pa, pa);
+
+
+        // iterare il vettore con un puntatore
+        int b[5] = {1,2,3,4,5};
+        while(b<&b[5]){
+                printf("%d\t", *b);
+                b++;
+        }
+        printf("\n");
+
+        // sostiuire in c la stringa miao
+        char c[5] = "ciao";
+        c = "miao";
+        printf("%s\n", c);
+
+        // sostituire in d la stringa miao
+        char *d = "ciao";
+        d[0] = 'm';
+        printf("%s\n", d);
+
+}
+```
+
+l'output corretto del programma funzionante è il seguente
+
+```
+a vale 6, a e' all'indirizzo di memoria 0x7ffe2ff8bc24
+1       2       3       4       5
+miao
+miao
+```
